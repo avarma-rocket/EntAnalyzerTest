@@ -3,7 +3,7 @@ pipeline {
     
     triggers {
         // Poll the repository every 5 minutes
-        pollSCM('H/5 * * * *')
+        pollSCM('* * * * *')
     }
     
     stages {
